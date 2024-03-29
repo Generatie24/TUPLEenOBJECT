@@ -11,9 +11,11 @@ namespace ClassLibraryTest
             var groepen = namen.GroupBy(naam => naam[0]);
             foreach (var groep in groepen)
             {
-                list.Add("---------------------");
                 foreach (var naam in groep)
+                {
                     list.Add(naam);
+                }
+                list.Add("---------------------");
             }
             return list;
         }

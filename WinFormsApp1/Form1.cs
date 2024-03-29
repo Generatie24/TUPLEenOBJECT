@@ -36,7 +36,7 @@ namespace WinFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             Services services = new Services();
-            List<string> namen = new List<string>() { "Harriyet2", "Zak", "Hasan", "Ziko2","Eveliene", "Harriyet","Ziko" };
+            List<string> namen = new List<string>() { "Harriyet2", "Zak", "Salvatore", "Hasan", "Ziko2","Eveliene", "Harriyet","Ziko","Santiago" };
             List<string> list = services.FirstLetter(namen);
             foreach (var item in list)
             {
