@@ -28,9 +28,6 @@ namespace WinFormsApp1
             listBox1.Items.Clear();
             listBox1.Items.Add(first.ToString());
             listBox1.Items.Add(last.ToString());
-
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,6 +38,7 @@ namespace WinFormsApp1
             foreach (var item in list)
             {
                 listBox1.Items.Add(item);
+                listBox1.Sorted = true;
             }
         }
     }
